@@ -46,6 +46,14 @@
             }
         }
     }
+
+    .article-content {
+        :first-child {
+            margin-top: 0
+        }
+
+        color: var(--card-text-color-main);
+    }
 }
 
 .article-details {
